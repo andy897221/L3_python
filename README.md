@@ -14,7 +14,7 @@ Python implementation of L3 algorithm in "Network-based prediction of protein in
 ```L3.py```: the re-implementation of L3 algorithm in Python
 
 # Usage
-run ```L3.py```. By default it uses a file of "sampled 90% edges in BioGRID PPI", and returns the top 1000 predicted edges by L3. The program then prints the precision of the prediction i.e. ratio of edges predicted correctly.
+run ```L3.py``` (see line 57 ```basic_L3()``` as an example). By default it uses a file of "sampled 90% edges in BioGRID PPI", and returns the top 1000 predicted edges by L3. The program then prints the precision of the prediction i.e. ratio of edges predicted correctly.
 
 # Performance
 Though not deterministic (for the same input, the prec returns differently everytime), performance varies from +/-0.05 of L3 performance (tested original L3 algorithm in C++ against the same dataset)
