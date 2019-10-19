@@ -1,5 +1,5 @@
 # L3_python
-Third-party Re-implementation in Python of L3 algorithm in "Network-based prediction of protein interactions" on Nature Communication, doi: https://doi.org/10.1038/s41467-019-09177-y, its GitHub (implemented in C++): kpisti/L3
+Third-party Re-implementation in Python of L3 algorithm in "Network-based prediction of protein interactions" on Nature Communication 2019, doi: https://doi.org/10.1038/s41467-019-09177-y, its GitHub (implemented in C++): kpisti/L3
 
 # Requirement
 ```pip install numpy```
