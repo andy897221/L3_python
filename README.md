@@ -4,6 +4,9 @@ Third-party Re-implementation in Python of L3 algorithm in "Network-based predic
 # Requirement
 ```pip install numpy```
 
+# Claim
+the BioGRID PPI used here, is the yeast PPI from BIOGRID-ORGANISM-3.5.176.tab2.zip
+
 # File Structure
 ```bioGRID.py```: parsing the downloaded BioGRID file into a data structure of PPI binary relation e.g. ```[[a,b],[c,d]]``` means an undirected graph of node {a,b,c,d} where a & b are connected, c & d are connected
 
