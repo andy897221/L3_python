@@ -12,7 +12,7 @@ def L3(candidatePPIs):
     PPIScores = {}
     for [X, Y] in candidatePPIs:
         U = n(X), V = n(Y)
-        uvPair = [all possible combinations for nodes between U and V]
+        uvPair = [all possible adjacent uv node pairs in U and V]
         score = 0
         for [u, v] in uvPair:
             score += 1/sqrt(|n(u)|*|n(v)|)
